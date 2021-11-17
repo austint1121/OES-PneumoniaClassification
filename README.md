@@ -9,7 +9,8 @@ Data sourced from [Identifying Medical Diagnoses and Treatable Diseases by Image
 
 
 
-**Data Understanding**
+**Data Understanding**:
+
 - Because we want to train a neural network to help identify whether or not a subject has pneumonia or not based on a chest X-ray, this dataset of 5,232 chest X-rays from children will help us train the network and so that it can be of use to doctors. There are 3,883 pneumonia x-rays and 1,349 normal ones, so there is a class imbalance issue. Additionally, each image is a different size, so it is necessary to standardize the images before modelling.
 - In the context of this data, a false positive would mean that the neural network identifies an x-ray as showing evidence of pneumonia, when it is really a normal x-ray. A false negative would mean that the neural network identifies a pneumonia image as being normal.
 

@@ -3,7 +3,7 @@ Data sourced from [Identifying Medical Diagnoses and Treatable Diseases by Image
 
 **Authors**:
 
-- [Brooke Smyth]()
+- [Brooke Smyth](https://github.com/brooke57)
 - [Matthew Turner](https://github.com/austint1121)
 - [Danielle Rossman](https://github.com/dmrossm)
 

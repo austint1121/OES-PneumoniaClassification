@@ -17,7 +17,7 @@
 
 The Cyclops Hospital Network (CHN)  has 31 locations where pediatric patients who potentially have viral or bacterial pneumonia may seek
 diagnosis and care. Given certain symptoms and the severity of those symptoms, many of those patients will undergo X-ray
-imaging of the thorax.
+imaging of the chest.
 
 Given that a radiologist has a maximum of 12 hours to review these images and the initial
 assessment of the imaging is done by either an emergency room physician or an urgent care practitioner, who may be less

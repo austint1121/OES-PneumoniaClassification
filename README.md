@@ -7,7 +7,7 @@
 - [Brooke Smyth](https://github.com/brooke57)
 - [Matthew Turner](https://github.com/austint1121)
 
-
+Our walk through can be found on [kaggle](https://www.kaggle.com/matthewturnerirl/one-eyed-swolentists/notebook#Final-Model).
 ## Overview
 
 The Cyclops Hospital Network (CHN)  has 31 locations where pediatric patients who potentially have viral or bacterial
@@ -118,7 +118,7 @@ We would also like to estimate the monetary savings due to decrease in care dela
 
 ## Information
 
-Please review our full analysis in [our Jupyter Notebook]()
+Please review our full analysis in [our Jupyter Notebook](https://www.kaggle.com/matthewturnerirl/one-eyed-swolentists/notebook#Final-Model)
 or our [presentation](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/OES%20Pneumonia%20Classification.pdf)
 
 ## Repository Structure

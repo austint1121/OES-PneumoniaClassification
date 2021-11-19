@@ -29,8 +29,8 @@ trying different numbers of convolution and dense layers, adding dropout layers,
 out different learning rates and values for momentum, and adding class weights to account for the class imbalance (there
 were approximately 2.88 times as many pneumonia x-rays as there were normal x-rays). In the end, a CNN model with three
 convolution layers, three dense hidden layers, dropout layers, a Stochastic Gradient Descent optimizer with a learning
-rate of 0.001 and momentum of 0.9, early stopping, and class weights **resulted in the best model, with a testing accuracy
-of around 87% and a training accuracy of 92%.**
+rate of 0.001 and momentum of 0.9, early stopping, and class weights resulted in the best model, with a testing accuracy
+of around 87% and a training accuracy of 92%. **Finally we tested our final model on a holdout set, and it had an accuracy of 94%**
 
 ![Final model Confusion Matrix](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/final_conf_matrix.png)
 
@@ -103,7 +103,7 @@ approximately 2.88 times as many pneumonia x-rays as there were normal x-rays).
 
 Our final, and best, model was a CNN model with three convolution layers, three dense hidden layers, dropout layers, a
 Stochastic Gradient Descent optimizer with a learning rate of 0.001 and momentum of 0.9, early stopping, and class
-weights resulted in the best model, with a testing accuracy of around 87% and a training accuracy of 92%.
+weights resulted in the best model, with a testing accuracy of around 87% and a training accuracy of 92%. **We also tested the model against a holdout/validation set and it achived an accuracy of 94%.**
 ![Final Model Training Graph](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/final_model_line.png)
 ## Conclusions
 Due to the high accuracy of our model, we feel confident that our final model can be used for assisting ER physicians as a decision support tool with diagnosing

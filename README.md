@@ -27,9 +27,7 @@ Convolutional Neural Networks (CNNs), as CNN models typically perform better on 
  We tuned various CNN models by using different optimizers (Adam and Stochastic Gradient Descent),
 trying different numbers of convolution and dense layers, adding dropout layers, implementing early stopping, testing
 out different learning rates and values for momentum, and adding class weights to account for the class imbalance (there
-were approximately 2.88 times as many pneumonia x-rays as there were normal x-rays). In the end, a CNN model with three
-convolution layers, three dense hidden layers, dropout layers, a Stochastic Gradient Descent optimizer with a learning
-rate of 0.001 and momentum of 0.9, early stopping, and class weights resulted in the best model, with a testing accuracy
+were approximately 2.88 times as many pneumonia x-rays as there were normal x-rays). In the end, a CNN model resulted in the best model, with a testing accuracy
 of around 87% and a training accuracy of 92%. **Finally we tested our final model on a holdout set, and it had an accuracy of 94%**
 
 ![Final model Confusion Matrix](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/final_conf_matrix.png)

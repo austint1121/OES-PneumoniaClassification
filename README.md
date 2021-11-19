@@ -14,7 +14,7 @@ The Cyclops Hospital Network (CHN)  has 31 locations where pediatric patients wh
 pneumonia may seek diagnosis and care. Given certain symptoms and the severity of those symptoms, many of those patients
 will undergo X-ray imaging of the chest.
 
-Given that a radiologist has a maximum of 12 hours to review these images and the initial
+Given that a CHN radiologist has a maximum of 12 hours to review these images and the initial
 assessment of the imaging is done by either an emergency room physician or an urgent care practitioner, who may be less
 accurate in diagnosing pneumonia via imaging, CHN wishes to create a decision support tool (DST) using a neural network
 in order to check the assessment of the emergency room and urgent care physicians.

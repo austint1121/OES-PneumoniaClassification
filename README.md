@@ -32,6 +32,7 @@ convolution layers, three dense hidden layers, dropout layers, a Stochastic Grad
 rate of 0.001 and momentum of 0.9, early stopping, and class weights **resulted in the best model, with a testing accuracy
 of around 87% and a training accuracy of 92%.**
 
+![Final model Confusion Matrix](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/final_conf_matrix.png)
 
 ## Business Problem
 

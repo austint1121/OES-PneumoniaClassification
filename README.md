@@ -3,9 +3,10 @@
 
 **Authors**:
 
+- [Danielle Rossman](https://github.com/dmrossm)
 - [Brooke Smyth](https://github.com/brooke57)
 - [Matthew Turner](https://github.com/austint1121)
-- [Danielle Rossman](https://github.com/dmrossm)
+
 
 ## Overview
 

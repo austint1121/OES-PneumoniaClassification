@@ -103,7 +103,7 @@ approximately 2.88 times as many pneumonia x-rays as there were normal x-rays).
 Our final, and best, model was a CNN model with three convolution layers, three dense hidden layers, dropout layers, a
 Stochastic Gradient Descent optimizer with a learning rate of 0.001 and momentum of 0.9, early stopping, and class
 weights resulted in the best model, with a testing accuracy of around 87% and a training accuracy of 92%.
-
+![Final Model Training Graph](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/final_model_line.png)
 ## Conclusions
 
 

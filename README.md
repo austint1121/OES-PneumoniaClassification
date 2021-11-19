@@ -1,6 +1,6 @@
 
 # OES-PneumoniaClassification
-
+![Banner Image](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/banner_Image.jpg)
 **Authors**:
 
 - [Danielle Rossman](https://github.com/dmrossm)

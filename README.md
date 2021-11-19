@@ -105,12 +105,20 @@ Stochastic Gradient Descent optimizer with a learning rate of 0.001 and momentum
 weights resulted in the best model, with a testing accuracy of around 87% and a training accuracy of 92%.
 ![Final Model Training Graph](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/final_model_line.png)
 ## Conclusions
+Due to the high accuracy of our model, we feel confident that our final model can be used for assisting ER physicians as a decision support tool with diagnosing
+pneumonia. There are also some further steps we would like to take in order to evaluate the efficacy of the CNN decision
+support tool, such as:
 
+Calculating the “case save rate” (number of cases wherein the ordering physician would have
+interpreted the xray incorrectly, released the patient and delayed care, BUT didn’t because the CNN decision support
+tool informed the physician that s/he may have been incorrect, resulting in immediate care) of the model.
+
+We would also like to estimate the monetary savings due to decrease in care delay and lawsuits.
 
 ## Information
 
 Please review our full analysis in [our Jupyter Notebook]()
-or our [presentation]()
+or our [presentation](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/OES%20Pneumonia%20Classification.pdf)
 
 ## Repository Structure
 

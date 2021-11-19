@@ -22,7 +22,7 @@ in order to check the assessment of the emergency room and urgent care physician
 Our modelling process is composed entirely by a series of neural networks. As with most models, there
 are a whole host of possible hyperparameters to tune and variety of networks to build. We started by building multiple
 multilayer perceptron (MLP) models. While they performed decently, we decided to spend most of our time building
-Convolutional Neural Networks (CNNs), as CNN models typically perform better on this type of problem
+Convolutional Neural Networks (CNNs), as CNN models typically perform better on this type of problem.
 
  We tuned various CNN models by using different optimizers (Adam and Stochastic Gradient Descent),
 trying different numbers of convolution and dense layers, adding dropout layers, implementing early stopping, testing

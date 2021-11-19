@@ -52,8 +52,9 @@ from missing important diagnoses and sending patients home with lack of care.
 ## Data
 Data sourced from [Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)
 
-This dataset consists of 5,232 chest X-rays of children's lungs. There are 3,883 pneumonia x-rays and 1,349 normal ones, so there is a class imbalance issue.
-Additionally, each image is a different size, so it is necessary to standardize the images before modeling.
+This dataset consists of 5,232 chest X-rays of children's lungs. There are 3,883 pneumonia x-rays and 1,349 normal ones,
+so there is a class imbalance issue. Additionally, each image is a different size, so it is necessary to standardize the
+images before modeling.
 
 In the context of this data, a false positive would mean that the neural network identifies an x-ray as showing evidence
 of pneumonia, when it is really a normal x-ray. A false negative would mean that the neural network identifies a
@@ -61,7 +62,7 @@ pneumonia image as being normal. We say that false negatives would be more costl
 patients being sent home, and possibly needing to be hospitalized later. In the worst case, it could lead to lawsuits
 because patients were told that they don't have pneumonia, when they did
 
-
+![https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/class_imbalance.png]
 ***
 
 ## Preprocessing
@@ -74,7 +75,7 @@ This setup allows us to use Keras' Image Data Generator to load our data. We cho
 - Easy re-sizing and rescaling of images
 
 
-  Using generators also allows more easily reproducable results. Since images fed into our model this way do not have to be preproccessed beforehand.
+  Using generators also allows more easily reproducible results. Since images fed into our model this way do not have to be preproccessed beforehand.
 ***
 
 ## Modeling Results

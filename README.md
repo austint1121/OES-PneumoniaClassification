@@ -62,7 +62,7 @@ pneumonia image as being normal. We say that false negatives would be more costl
 patients being sent home, and possibly needing to be hospitalized later. In the worst case, it could lead to lawsuits
 because patients were told that they don't have pneumonia, when they did
 
-![https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/class_imbalance.png]
+![Imbalance graph](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/class_imbalance.png)
 ***
 
 ## Preprocessing

@@ -7,7 +7,7 @@
 - [Brooke Smyth](https://github.com/brooke57)
 - [Matthew Turner](https://github.com/austint1121)
 
-Our walk through can be found on [kaggle](https://www.kaggle.com/matthewturnerirl/one-eyed-swolentists/notebook#Final-Model).
+Our walk through can be found on [kaggle](https://www.kaggle.com/matthewturnerirl/one-eyed-swolentists-pnemonia-classification).
 ## Overview
 
 The Cyclops Hospital Network (CHN)  has 31 locations where pediatric patients who potentially have viral or bacterial
@@ -27,10 +27,8 @@ Convolutional Neural Networks (CNNs), as CNN models typically perform better on 
  We tuned various CNN models by using different optimizers (Adam and Stochastic Gradient Descent),
 trying different numbers of convolution and dense layers, adding dropout layers, implementing early stopping, testing
 out different learning rates and values for momentum, and adding class weights to account for the class imbalance (there
-were approximately 2.88 times as many pneumonia x-rays as there were normal x-rays). In the end, a CNN model with three
-convolution layers, three dense hidden layers, dropout layers, a Stochastic Gradient Descent optimizer with a learning
-rate of 0.001 and momentum of 0.9, early stopping, and class weights **resulted in the best model, with a testing accuracy
-of around 87% and a training accuracy of 92%.**
+were approximately 2.88 times as many pneumonia x-rays as there were normal x-rays). In the end, a CNN model resulted in the best model, with a testing accuracy
+of around 87% and a training accuracy of 92%. **Finally we tested our final model on a holdout set, and it had an accuracy of 94%**
 
 ![Final model Confusion Matrix](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/final_conf_matrix.png)
 
@@ -103,7 +101,7 @@ approximately 2.88 times as many pneumonia x-rays as there were normal x-rays).
 
 Our final, and best, model was a CNN model with three convolution layers, three dense hidden layers, dropout layers, a
 Stochastic Gradient Descent optimizer with a learning rate of 0.001 and momentum of 0.9, early stopping, and class
-weights resulted in the best model, with a testing accuracy of around 87% and a training accuracy of 92%.
+weights resulted in the best model, with a testing accuracy of around 87% and a training accuracy of 92%. **We also tested the model against a holdout/validation set and it achived an accuracy of 94%.**
 ![Final Model Training Graph](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/final_model_line.png)
 ## Conclusions
 Due to the high accuracy of our model, we feel confident that our final model can be used for assisting ER physicians as a decision support tool with diagnosing
@@ -118,7 +116,7 @@ We would also like to estimate the monetary savings due to decrease in care dela
 
 ## Information
 
-Please review our full analysis in [our Jupyter Notebook](https://www.kaggle.com/matthewturnerirl/one-eyed-swolentists/notebook#Final-Model)
+Please review our full analysis in [our Jupyter Notebook](https://www.kaggle.com/matthewturnerirl/one-eyed-swolentists-pnemonia-classification)
 or our [presentation](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/OES%20Pneumonia%20Classification.pdf)
 
 ## Repository Structure

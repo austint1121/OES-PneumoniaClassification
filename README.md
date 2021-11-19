@@ -32,7 +32,6 @@ rate of 0.001 and momentum of 0.9, early stopping, and class weights **resulted 
 of around 87% and a training accuracy of 92%.**
 
 
-***
 ## Business Problem
 
 The Cyclops Hospital Network (CHN)  has 31 locations where pediatric patients who potentially have viral or bacterial
@@ -45,9 +44,6 @@ accurate in diagnosing pneumonia via imaging, CHN wishes to create a decision su
 in order to check the assessment of the emergency room and urgent care physicians. This DST will help to prevent doctors
 from missing important diagnoses and sending patients home with lack of care.
 
-
-
-***
 
 ## Data
 Data sourced from [Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)
@@ -63,7 +59,6 @@ patients being sent home, and possibly needing to be hospitalized later. In the 
 because patients were told that they don't have pneumonia, when they did
 
 ![Imbalance graph](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/class_imbalance.png)
-***
 
 ## Preprocessing
 
@@ -76,7 +71,7 @@ This setup allows us to use Keras' Image Data Generator to load our data. We cho
 
 
   Using generators also allows more easily reproducible results. Since images fed into our model this way do not have to be preproccessed beforehand.
-***
+
 
 ## Modeling Results
 
@@ -92,7 +87,7 @@ and high loss, so in the next couple of model iterations, we decided to add anot
 layers, with the hope that the second layer would help the network pick up on more patterns and reduce overfitting.
 There was still a significant overfitting and loss problem, so we decided to move on to a new type of neural network:
 Convolutional Neural Networks (CNNs).
-
+![Baseline MLP Training Graph](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/simple_mlp.png)
 CNNs introduce a type of filtering to images, which helps the network to pick up
 on patterns, such as edges differences, which might be useful in distinguishing between the different classes of images.
 We tuned various CNN models by using different optimizers (Adam and Stochastic Gradient Descent), trying different
@@ -104,10 +99,10 @@ In the end, a CNN model with three
 convolution layers, three dense hidden layers, dropout layers, a Stochastic Gradient Descent optimizer with a learning
 rate of 0.001 and momentum of 0.9, early stopping, and class weights resulted in the best model, with a testing accuracy
 of around 87% and a training accuracy of 92%.
-***
+
 
 ## Conclusions
-***
+
 
 ## Information
 

@@ -87,7 +87,9 @@ and high loss, so in the next couple of model iterations, we decided to add anot
 layers, with the hope that the second layer would help the network pick up on more patterns and reduce overfitting.
 There was still a significant overfitting and loss problem, so we decided to move on to a new type of neural network:
 Convolutional Neural Networks (CNNs).
+
 ![Baseline MLP Training Graph](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/simple_mlp.png)
+
 CNNs introduce a type of filtering to images, which helps the network to pick up
 on patterns, such as edges differences, which might be useful in distinguishing between the different classes of images.
 We tuned various CNN models by using different optimizers (Adam and Stochastic Gradient Descent), trying different
@@ -95,11 +97,9 @@ numbers of convolution and dense layers, adding dropout layers, implementing ear
 learning rates and values for momentum, and adding class weights to account for the class imbalance (there were
 approximately 2.88 times as many pneumonia x-rays as there were normal x-rays).
 
-In the end, a CNN model with three
-convolution layers, three dense hidden layers, dropout layers, a Stochastic Gradient Descent optimizer with a learning
-rate of 0.001 and momentum of 0.9, early stopping, and class weights resulted in the best model, with a testing accuracy
-of around 87% and a training accuracy of 92%.
-
+Our final, and best, model was a CNN model with three convolution layers, three dense hidden layers, dropout layers, a
+Stochastic Gradient Descent optimizer with a learning rate of 0.001 and momentum of 0.9, early stopping, and class
+weights resulted in the best model, with a testing accuracy of around 87% and a training accuracy of 92%.
 
 ## Conclusions
 

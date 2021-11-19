@@ -79,6 +79,7 @@ This setup allows us to use Keras' Image Data Generator to load our data. We cho
 Our modelling process is composed entirely by a series of neural networks. As with most models, there are a whole host
 of possible hyperparameters to tune and variety of networks to build.
 
+### Multi-Layer Perceptron
 We started by building a simple multilayer
 perceptron (MLP) model with one hidden layer, in order to obtain a baseline model. We decided to use reLu as the
 activation function for all layers but the output layer, due to its tendency to prevent activation of all the neurons in
@@ -91,6 +92,7 @@ Convolutional Neural Networks (CNNs).
 
 ![Baseline MLP Training Graph](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/simple_mlp.png)
 
+### Convolutional Neural Network
 CNNs introduce a type of filtering to images, which helps the network to pick up
 on patterns, such as edges differences, which might be useful in distinguishing between the different classes of images.
 We tuned various CNN models by using different optimizers (Adam and Stochastic Gradient Descent), trying different

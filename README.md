@@ -7,7 +7,7 @@
 - [Brooke Smyth](https://github.com/brooke57)
 - [Matthew Turner](https://github.com/austint1121)
 
-Our walk through can be found on [kaggle](https://www.kaggle.com/matthewturnerirl/one-eyed-swolentists-pnemonia-classification).
+Our full code and analysis of the data can be found on [kaggle](https://www.kaggle.com/matthewturnerirl/one-eyed-swolentists-pnemonia-classification).
 ## Overview
 
 The Cyclops Hospital Network (CHN)  has 31 locations where pediatric patients who potentially have viral or bacterial

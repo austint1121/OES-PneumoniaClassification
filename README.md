@@ -79,6 +79,30 @@ This setup allows us to use Keras' Image Data Generator to load our data. We cho
 
 ## Modeling Results
 
+Our modelling process is composed entirely by a series of neural networks. As with most models, there are a whole host
+of possible hyperparameters to tune and variety of networks to build.
+
+We started by building a simple multilayer
+perceptron (MLP) model with one hidden layer, in order to obtain a baseline model. We decided to use reLu as the
+activation function for all layers but the output layer, due to its tendency to prevent activation of all the neurons in
+a layer at a time, which often yields better results. We used the sigmid function as the activator function in the
+output layer, since this is a binary classification problem. This first simple MLP model had a big overfitting problem
+and high loss, so in the next couple of model iterations, we decided to add another hidden layer, and then some dropout
+layers, with the hope that the second layer would help the network pick up on more patterns and reduce overfitting.
+There was still a significant overfitting and loss problem, so we decided to move on to a new type of neural network:
+Convolutional Neural Networks (CNNs).
+
+CNNs introduce a type of filtering to images, which helps the network to pick up
+on patterns, such as edges differences, which might be useful in distinguishing between the different classes of images.
+We tuned various CNN models by using different optimizers (Adam and Stochastic Gradient Descent), trying different
+numbers of convolution and dense layers, adding dropout layers, implementing early stopping, testing out different
+learning rates and values for momentum, and adding class weights to account for the class imbalance (there were
+approximately 2.88 times as many pneumonia x-rays as there were normal x-rays).
+
+In the end, a CNN model with three
+convolution layers, three dense hidden layers, dropout layers, a Stochastic Gradient Descent optimizer with a learning
+rate of 0.001 and momentum of 0.9, early stopping, and class weights resulted in the best model, with a testing accuracy
+of around 87% and a training accuracy of 92%.
 ***
 
 ## Conclusions

@@ -1,6 +1,6 @@
 
 # OES-PneumoniaClassification
-![Banner Image](https://github.com/dmrossm/Tuberculosis-X-ray-Classification/blob/main/Images/Opening%20Slide.jpg)
+![Banner Image](https://github.com/austint1121/OES-PneumoniaClassification/blob/main/Images/banner_Image.jpg)
 **Authors**:
 
 - [Danielle Rossman](https://github.com/dmrossm)
